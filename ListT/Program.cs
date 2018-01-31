@@ -57,8 +57,10 @@ namespace List_T
             Console.WriteLine("3 " + " - " + count3 + " раз");
             Console.WriteLine("4 " + " - " + count4 + " раз");
             Console.ReadKey();
-
-            List<int> a = new List<int> { 1, 2, 4, 3, 5, 4, 4, 2, 6 };
+            //            Дана коллекция List<T>, требуется подсчитать, сколько раз каждый элемент встречается в данной коллекции
+            //            б) *для обобщенной коллекции;
+            //            в)**используя Linq.
+                        List<int> a = new List<int> { 1, 2, 4, 3, 5, 4, 4, 2, 6 };
             foreach (object element in a)
                 Console.WriteLine(element);
             Console.ReadKey();
